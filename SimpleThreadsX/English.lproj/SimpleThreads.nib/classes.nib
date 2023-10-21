@@ -1,18 +1,47 @@
-{
-    IBClasses = (
-        {
-            ACTIONS = {
-                doSomethingSlow = id; 
-                doSomethingSlower = id; 
-                killThreads = id; 
-                showAboutPanel = id; 
-            }; 
-            CLASS = Controller; 
-            LANGUAGE = ObjC; 
-            OUTLETS = {infoPanel = id; mainWindow = id; textField = id; }; 
-            SUPERCLASS = NSObject; 
-        }, 
-        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
-    ); 
-    IBVersion = 1; 
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IBClasses</key>
+	<array>
+		<dict>
+			<key>CLASS</key>
+			<string>FirstResponder</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+		<dict>
+			<key>ACTIONS</key>
+			<dict>
+				<key>doSomethingSlow</key>
+				<string>id</string>
+				<key>doSomethingSlower</key>
+				<string>id</string>
+				<key>killThreads</key>
+				<string>id</string>
+				<key>showAboutPanel</key>
+				<string>id</string>
+			</dict>
+			<key>CLASS</key>
+			<string>Controller</string>
+			<key>LANGUAGE</key>
+			<string>ObjC</string>
+			<key>OUTLETS</key>
+			<dict>
+				<key>infoPanel</key>
+				<string>id</string>
+				<key>mainWindow</key>
+				<string>id</string>
+				<key>textField</key>
+				<string>id</string>
+			</dict>
+			<key>SUPERCLASS</key>
+			<string>NSObject</string>
+		</dict>
+	</array>
+	<key>IBVersion</key>
+	<string>1</string>
+</dict>
+</plist>
